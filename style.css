@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    font-family: "Kode Mono", monospace;
+}
+
+.color-switcher-container {
+    display: flex;
+    background-color: #AD636C;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    transition: background-color 0.5s ease;
+}
+
+.color-switcher-text-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    padding: 8px 12px;
+    gap: 12px;
+}
+
+.color-switcher-text-container h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.color-switcher-text-background {
+    color: white;
+}
+
+.color-switcher-text-color {
+    color: #009B72;
+}
+
+/* Click me button */
+/* .color-switcher-button {   
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 12px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+} */
+
+.previous-next-color-button-container {
+    display: flex;
+    gap: 48px;
+}
+
+.previous-color-button{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 12px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+}
+
+.next-color-button {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 12px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+}
+
+#counter-shift-colors {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px 12px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    top: 0px;
+    right: 0px;
+    opacity: 0;
+}
+
+.reset-color-switcher-button {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 12px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    opacity: 0;
+}
